@@ -1,14 +1,14 @@
 {
-  "name": "ALPHA-MD",
-  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
+  "name": "JINVON-MD",
+  "description": "Jinvon is a multidevice WhatsApp bot built to make your WhatsApp enjoyable...",
   "keywords": [
     "bot",
     "node",
     "baileys",
     "whatsapp"
   ],
-  "logo": "https://telegra.ph/file/b148f6ed21fa02ac5325b.jpg",
-  "repository": "https://github.com/Keithkeizzah/ALPHA-MD",
+  "logo": "https://files.catbox.moe/6z4zhg.jpg",
+  "repository": "https://github.com/finjohns/JINVON-MD",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -34,7 +34,7 @@
     },
     "AUTOBIO": {
       "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_DOWNLOAD_STATUS": {
@@ -44,7 +44,7 @@
     },
     "PM_PERMIT": {
       "description": "Restrict other users from using your bot in private messages (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_STATUS_MSG": {
@@ -54,7 +54,7 @@
     },
     "AUTO_STATUS_REPLY": {
       "description": "type your genuine status message",
-      "value": "no",
+      "value": "yes",
       "required": false
     },
     "ANTICALL_MSG": {
@@ -64,7 +64,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "",
+      "value": "JINVON-MD",
       "required": true
     },
     "GROUP_CONTROL": {
@@ -74,7 +74,7 @@
     },
     "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "HEROKU_API_KEY": {
@@ -93,8 +93,8 @@
       "required": true
     },
     "OWNER_NAME": {
-      "description": "don't you have a name bro.Insert your name here!!",
-      "value": "",
+      "description": "b.live it like to avoid bot goes off!!",
+      "value": "𝗝𝗜𝗡𝗪𝗜𝗜𝗟🕸️𝗢𝗡𝗚𝗜𝗡𝗝𝗢🕷️",
       "required": true
     },
     "URL": {
