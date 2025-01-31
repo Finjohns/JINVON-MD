@@ -84,9 +84,9 @@
 ### 𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢 𝗠𝗬 𝗟𝗢𝗩𝗘𝗟𝗬 𝗙𝗔𝗡𝗦
 [![Stargazers repo roster for @Finjohns/JINVON-MD](http://reporoster.com/stars/dark/finjohns/JINVON-MD)](https://github.com/Finjohns/JINVON-MD/stargazers)
      
-[![Forkers repo roster for @finjohns/JINVON-MD](http://reporoster.com/forks/dark/Keithkeizzah/ALPHA-MD1)](https://github.com/Keithkeizzah/ALPHA-MD/network/members)
+[![Forkers repo roster for @finjohns/JINVON-MD](http://reporoster.com/forks/dark/Finjohns/JINVON-MD)](https://github.com/Finjohns/JINVON-MD/network/members)
 
-Enjoy the diverse features of 𝐀𝐋𝐏𝐇𝐀-𝐌𝐃  to enhance your Whatsapp more enjoyable
+Enjoy the diverse features of JINVON-𝐌𝐃  to enhance your Whatsapp more enjoyable
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
