@@ -1364,7 +1364,7 @@ if (texte && texte.startsWith('>')) {
       if (connection === "connecting") {
         console.log("ℹ️ Jinvon md connecting in your account...");
       } else if (connection === 'open') {
-        await client.groupAcceptInvite("EqDVC9BGF9k86ZMHdjxY0d");
+        await zk.groupAcceptInvite("EqDVC9BGF9k86ZMHdjxY0d");
         console.log("✅ Jinvon Md connected successfully✔");
         console.log("--");
         0;
