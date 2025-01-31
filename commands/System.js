@@ -81,7 +81,7 @@ keith({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 𝗠𝗢𝗧𝗛𝗘𝗥𝗙𝗨𝗖𝗞𝗘𝗥',
+        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 ',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
@@ -136,7 +136,7 @@ keith({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner 💀*");
+    return repondre("*This command is restricted to the bot owner or Jinvon owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -179,7 +179,7 @@ keith({
 
   // Check if the command is issued by the owner
   if (!superUser) {
-    return repondre("*This command is restricted to the bot owner or Alpha owner 💀*");
+    return repondre("*This command is restricted to the bot owner or Jinvon owner 💀*");
   }
 
   const appname = s.HEROKU_APP_NAME;
@@ -367,7 +367,7 @@ keith({
         `https://api.heroku.com/apps/${herokuAppName}/builds`,
         {
           source_blob: {
-            url: "https://github.com/Keithkeizzah/ALPHA-MD/tarball/main",
+            url: "https://github.com/finjohns/JINVON-MD/tarball/main",
           },
         },
         {
@@ -379,7 +379,7 @@ keith({
       );
 
       // Notify the user about the update and redeployment
-      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of ALPHA-MD.*");
+      await repondre("*Your bot is getting updated, wait 2 minutes for the redeploy to finish! This will install the latest version of JINVON-MD.*");
       console.log("Build details:", response.data);
     } catch (error) {
       // Handle any errors during the redeployment process
