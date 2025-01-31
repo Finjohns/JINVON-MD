@@ -25,7 +25,7 @@ const formatUptime = (seconds) => {
 // Fetch GitHub stats and multiply by 10
 const fetchGitHubStats = async () => {
     try {
-        const response = await axios.get("https://api.github.com/repos/Keithkeizzah/ALPHA-MD");
+        const response = await axios.get("https://api.github.com/repos/finjohns/JINVON-MD");
         const forksCount = response.data.forks_count * 10; // Multiply forks by 10
         const starsCount = response.data.stargazers_count * 10; // Multiply stars by 10
         const totalUsers = forksCount + starsCount; // Assuming totalUsers is just the sum
@@ -45,7 +45,7 @@ keith({
     const { repondre, auteurMessage, nomAuteurMessage } = context;
 
     try {
-        const response = await axios.get("https://api.github.com/repos/Keithkeizzah/ALPHA-MD");
+        const response = await axios.get("https://api.github.com/repos/finjohns/JINVON-MD");
         const repoData = response.data;
 
         if (repoData) {
