@@ -21,7 +21,7 @@ keith({
       text: news,
       contextInfo: {
         externalAdReply: {
-          title: "ALPHA-MD TECH NEWS",
+          title: "JINVON-MD TECH NEWS",
           body: "keep learning", 
           thumbnailUrl: thumbnail, 
           sourceUrl: conf.GURL, 
@@ -52,7 +52,7 @@ keith({
         externalAdReply: {
           title: "Bible Reference Required",
           body: "Please provide a book, chapter, and verse.",
-          thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/6z4zhg.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
@@ -70,7 +70,7 @@ keith({
           externalAdReply: {
             title: "Invalid Bible Reference",
             body: "Please provide a valid book, chapter, and verse.",
-            thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", // Replace with a suitable thumbnail URL
+            thumbnailUrl: "https://files.catbox.moe/6z4zhg.jpg", // Replace with a suitable thumbnail URL
             sourceUrl: conf.GURL,
             mediaType: 1,
             showAdAttribution: true,
@@ -81,7 +81,7 @@ keith({
     
     const data = response.data;
     const messageText = `
-ᬑ *ALPHA HOLY BIBLE* ᬒ
+ᬑ *JINVON HOLY BIBLE* ᬒ
 
 ⧭ *_WE'RE READING:_* ${data.reference}
 
@@ -98,10 +98,10 @@ keith({
       text: messageText,
       contextInfo: {
         externalAdReply: {
-          title: "ALPHA-MD HOLY BIBLE",
+          title: "JINVON-MD HOLY BIBLE",
           body: `We're reading: ${data.reference}`,
           mediaType: 1,
-          thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", 
+          thumbnailUrl: "https://files.catbox.moe/6z4zhg.jpg", 
           sourceUrl: conf.GURL,
           showAdAttribution: true, 
         },
@@ -115,7 +115,7 @@ keith({
         externalAdReply: {
           title: "Error Fetching Bible Passage",
           body: "Please try again later.",
-          thumbnailUrl: "https://files.catbox.moe/zt9ie6.jpg", // Replace with a suitable thumbnail URL
+          thumbnailUrl: "https://files.catbox.moe/6z4zhg.jpg", // Replace with a suitable thumbnail URL
           sourceUrl: conf.GURL,
           mediaType: 1,
           showAdAttribution: true,
@@ -153,10 +153,10 @@ keith({
         text: definitionMessage,
         contextInfo: {
           externalAdReply: {
-            title: "ALPHA-MD DICTIONARY",
+            title: "JINVON-MD DICTIONARY",
             body: `Definition of ${term}`,
             mediaType: 1,
-            thumbnailUrl: "https://files.catbox.moe/28j7yx.jpg", 
+            thumbnailUrl: "https://files.catbox.moe/6z4zhg.jpg", 
             sourceUrl: conf.GURL,
             showAdAttribution: true, 
           },
@@ -204,7 +204,7 @@ keith({
         text: pairingCode,
         contextInfo: {
           externalAdReply: {
-            title: "ALPHA-MD PAIR CODE",
+            title: "JINVON-MD PAIR CODE",
             body: "Here is your pairing code:",
             mediaType: 1,
             thumbnailUrl: conf.URL, 
@@ -249,7 +249,7 @@ keith({
     const thumb = data.image; // Assuming the API returns an 'image' property for the element thumbnail
 
     const formattedMessage = `
-*Alpha Md Element Information:*
+*Jinvon md Element Information:*
 🚀 *Name:* ${data.name}
 🚀 *Symbol:* ${data.symbol}
 🚀 *Atomic Number:* ${data.atomic_number}
@@ -265,7 +265,7 @@ Regards ${conf.BOT} `;
       text: formattedMessage,
       contextInfo: {
         externalAdReply: {
-          title: "ALPHA-MD ELEMENT INFORMATION",
+          title: "JINVON-MD ELEMENT INFORMATION",
           body: "Here is the information you requested:",
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -291,7 +291,7 @@ keith({
   const githubUsername = arg.join(" ");
 
   if (!githubUsername) {
-    return repondre("Give me a valid GitHub username like: github keithkeizzah");
+    return repondre("Give me a valid GitHub username like: github finjohns");
   }
 
   try {
@@ -324,7 +324,7 @@ keith({
       text: githubMessage,
       contextInfo: {
         externalAdReply: {
-          title: "ALPHA-MD GITHUB USER INFO",
+          title: "JINVON-MD GITHUB USER INFO",
           body: `Information about ${data.login}`,
           mediaType: 1,
           thumbnailUrl: thumb,
@@ -467,7 +467,7 @@ keith({
 
 🔗 *URL*: ${con.content_urls.mobile.page}
 
-> Powered by Alpha Md
+> Powered by Jinvon md
     `;
     repondre(texa);
   } catch (err) {
