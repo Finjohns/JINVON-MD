@@ -170,7 +170,7 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
         commandsList += "\n│◦➛╰─────────────\n╰──────────────┈⊷\n";
     }
 
-    commandsList += readMore + "\nin honor of Jinwiil\n";
+    commandsList += readMore + "\nin honor of JinwiilOnginjo\n";
 
     try {
         const senderName = message.sender || message.from;
