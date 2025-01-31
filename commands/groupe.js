@@ -31,7 +31,7 @@ keith({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
   let membresGroupe = verifGroupe ? await infosGroupe.participants : ""
   var tag = ""; 
   tag += `========================\n  
-        🌟 *ALPHA-MD* 🌟
+        🌟 *JINVON-MD* 🌟
 ========================\n
 👥 Group : ${nomGroupe} 🚀 
 👤 Author : *${nomAuteurMessage}* 👋 
@@ -291,7 +291,7 @@ keith({ nomCom: "add", categorie: 'Group', reaction: "👨🏿‍💼" }, async 
 		const isImAdmin = await isAdmin(participants, message.client.user.jid)
 		if (!isImAdmin) return await message.send(`_I'm not admin._`)
 		match = match || message.reply_message.jid
-		if (!match) return await message.send('Example : add 254757835036')
+		if (!match) return await message.send('Example : add 254769365617')
 		// if (!match.startsWith('@@')) {
 		// 	match = jidToNum(match)
 		// 	const button = await genButtonMessage(
@@ -698,7 +698,7 @@ keith({nomCom:"hidetag",categorie:'Group',reaction:"🎤"},async(dest,zk,command
         let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
 
         let stickerMess = new Sticker(media, {
-          pack: 'ALPHA-MD-tag',
+          pack: 'JINVON-MD-tag',
           type: StickerTypes.CROPPED,
           categories: ["🤩", "🎉"],
           id: "12345",
