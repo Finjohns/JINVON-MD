@@ -230,14 +230,14 @@ keith({
     const response = await axios.get("https://nekos.life/api/v2/fact");
     const data = response.data;
     const factMessage = `
-┏━━━━ *ALPHA-FACT* ━━━━━◆                     
+┏━━━━ *JINVON-FACT* ━━━━━◆                     
 ┃
 ┃   *◇* ${data.fact} 
 ┃
-┃   *◇* Regards *ALPHA MD*
+┃   *◇* Regards *JINVON MD*
 ┃      
  ╭────────────────◆
- │ *_Powered by keithkeizzah._*
+ │ *_Powered by Jinwiilonginjo._*
  ╰─────────────────◆
     `;
 
@@ -276,10 +276,10 @@ keith({
 ┃  
 ┃   *◇* *AUTHOR:* ${data.quote.author}
 ┃      
-┃    *◇*  *regards ALPHA MD*
+┃    *◇*  *regards JINVON MD*
 ┃    
 ╭────────────────◆
-│ *_Powered by keithkeizzah._*
+│ *_Powered by JinwiilOnginjo._*
 ╰─────────────────◆
     `;
 
