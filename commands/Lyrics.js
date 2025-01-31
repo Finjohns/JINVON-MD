@@ -46,7 +46,7 @@ keith({
   }
 
   const { title, artist, thumb, lyrics } = lyricsData.result;
-  const imageUrl = thumb || "https://i.imgur.com/Cgte666.jpeg";
+  const imageUrl = thumb || "https://files.catbox.moe/oc5tkh.jpg";
 
   const caption = `**Title**: ${title}\n**Artist**: ${artist}\n\n${lyrics}`;
 
