@@ -258,9 +258,9 @@ zk.ev.on("messages.upsert", async (m) => {
     // Function to format notification message
 function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-  let notification = `*😈ALPHA ANTIDELETE👿*\n\n`;
+  let notification = `*🤬JINVON ANTIDELETE🤬*\n\n`;
   notification += `*Time deleted🥀:* ${new Date().toLocaleString()}\n`;
-  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by JinwiilOnginjo*\n\n`;
+  notification += `*Deleted by💀:* @${deletedBy.split('@')[0]}\n\n*Powered by JinwiilOnginjo*\n\n`;
   return notification;
 }
 
@@ -373,9 +373,9 @@ zk.ev.on("messages.upsert", async m => {
       // Function to format notification message
 function createNotification(deletedMessage) {
   const deletedBy = deletedMessage.key.participant || deletedMessage.key.remoteJid;
-  let notification = `*😈ALPHA ANTIDELETE👿*\n\n`;
+  let notification = `*🤬JINVON ANTIDELETE🤬*\n\n`;
   notification += `*Time deleted🥀:* ${new Date().toLocaleString()}\n`;
-  notification += `*Deleted by🌷:* @${deletedBy.split('@')[0]}\n\n*Powered by JinwiilOnginjo*\n\n`;
+  notification += `*Deleted by💀:* @${deletedBy.split('@')[0]}\n\n*Powered by JinwiilOnginjo*\n\n`;
   return notification;
 }
 
