@@ -140,16 +140,16 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 
 ╭━━━ 〔 *${settings.BOT}* 〕━━━┈⊷
 ┃✵╭──────────────
-┃✵│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
-┃✵│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
-┃✵│▸ *ᴛɪᴍᴇ:* ${formattedTime}
-┃✵│▸ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
-┃✵│▸ *ᴅᴀᴛᴇ:* ${formattedDate}
-┃✵│▸ *ᴍᴏᴅᴇ:* ${mode}
-┃✵│▸ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Africa/Nairobi
-┃✵│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
-┃✵│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃✵│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
+┃⋐│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
+┃⋐│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
+┃⋐│▸ *ᴛɪᴍᴇ:* ${formattedTime}
+┃⋐│▸ *ᴄᴏᴍᴍᴀɴᴅꜱ:* ${commands.length} 
+┃⋐│▸ *ᴅᴀᴛᴇ:* ${formattedDate}
+┃⋐│▸ *ᴍᴏᴅᴇ:* ${mode}
+┃⋐│▸ *ᴛɪᴍᴇ ᴢᴏɴᴇ:* Africa/Nairobi
+┃⋐│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
+┃⋐│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+┃⋐│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
 ┃❄️╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 
