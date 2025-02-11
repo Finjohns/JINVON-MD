@@ -67,7 +67,7 @@ keith({
     fileName: 'shizo',
     contextInfo: {
       externalAdReply: {
-        title: '𝗜 𝗔𝗠 𝗔𝗟𝗜𝗩𝗘 ',
+        title: '𝐀𝐌 𝐀𝐋𝐈𝐕𝐄 𝐃𝐔𝐃𝐄 😎✌🏾',
         body: conf.OWNER_NAME,
         thumbnailUrl: conf.URL,
         sourceUrl: conf.GURL, // Corrected variable name
