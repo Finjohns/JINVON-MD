@@ -139,7 +139,7 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 *${randomQuote}*
 
 ╭━━━ 〔 *${settings.BOT}* 〕━━━┈⊷
-┃✵╭──────────────
+┃☉ ╭──────────────
 ┃⋐│▸ *ʙᴏᴛ ᴏᴡɴᴇʀ:* ${settings.OWNER_NAME}
 ┃⋐│▸ *ᴘʀᴇғɪx:* *[ ${settings.PREFIXE} ]*
 ┃⋐│▸ *ᴛɪᴍᴇ:* ${formattedTime}
@@ -150,7 +150,7 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 ┃⋐│▸ *ᴛᴏᴛᴀʟ ᴜsᴇʀs:* ${formattedTotalUsers} users
 ┃⋐│▸ *ʀᴀᴍ:* ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 ┃⋐│▸ *ᴜᴘᴛɪᴍᴇ:* ${formatUptime(process.uptime())}
-┃❄️╰──────────────
+┃🕸️ ╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
 
 *${randomQuote}*
@@ -162,12 +162,12 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
     let commandIndex = 1;
 
     for (const category of sortedCategories) {
-        commandsList += `\n*╭─────「 ${toFancyUppercaseFont(category)} 」──┈⊷*\n│◦➛🔹╭───────────────`;
+        commandsList += `\n*╭─────「 ${toFancyUppercaseFont(category)} 」──┈⊷*\n│◦➛▪️╭───────────────`;
         const sortedCommands = categorizedCommands[category].sort();
         for (const command of sortedCommands) {
             commandsList += `\n│◦➛ ${commandIndex++}. ${toFancyLowercaseFont(command)}`;
         }
-        commandsList += "\n│◦➛🔹╰─────────────\n╰──────────────┈⊷\n";
+        commandsList += "\n│◦➛▪️╰─────────────\n╰──────────────┈⊷\n";
     }
 
     commandsList += readMore + "\nin honor of JinwiilOnginjo\n";
