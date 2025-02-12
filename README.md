@@ -26,9 +26,9 @@
 
   
 
-<a href="https://github.com/finjohns/JINVON-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-purple" alt="FORK JINVON" width="150"></a>
+<a href="https://github.com/finjohns/JINVON-MD/fork"><img src="https://img.shields.io/badge/CLICK%20HERE-blue" alt="FORK JINVON" width="150"></a>
 
-<a href="https://jinwiilsee-29fca439ed51.herokuapp.com"><img src="https://img.shields.io/badge/Pair%30session%30code-red" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="200"></a>
+<a href="https://jinwiilsee-29fca439ed51.herokuapp.com"><img src="https://img.shields.io/badge/Pair%30session%30code-red" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="300"></a>
 
   
 
