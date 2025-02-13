@@ -19,7 +19,7 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "GREET": {
@@ -49,12 +49,12 @@
     },
     "AUTO_STATUS_MSG": {
       "description": "type your genuine status message",
-      "value": "viewed ✅✅",
+      "value": "",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
       "description": "type your genuine status message",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "ANTICALL_MSG": {
@@ -94,22 +94,22 @@
     },
     "OWNER_NAME": {
       "description": "b.live it like to avoid bot goes off!!",
-      "value": "𝗝𝗜𝗡𝗪𝗜𝗜𝗟🕸️𝗢𝗡𝗚𝗜𝗡𝗝𝗢🕷️",
+      "value": "",
       "required": true
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "",
+      "value": "https://files.catbox.moe/kf7knv.jpg",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
       "description": "yes toactivate no to deactivate",
-      "value": "yes",
+      "value": "no",
       "required": false  
     },
     "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '254796299159')",
-      "value": "254796299159",
+      "value": "254769365617",
       "required": false
     },
     "WARN_COUNT": {
@@ -119,7 +119,7 @@
     },
     "STARTING_BOT_MESSAGE": {
       "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
+      "value": "no",
       "required": true
     },
     "PRESENCE": {
@@ -134,7 +134,7 @@
     },
     "ANTICALL": {
       "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
+      "value": "no",
       "required": false
     },
     "AUTO_BLOCK": {
