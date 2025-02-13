@@ -1,6 +1,6 @@
 
  {
-  "name": "ALPHA-MD",
+  "name": "JINVON-MD",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -20,7 +20,7 @@
     "whatsapp-bot",
     "keithkeizzah"
    ],
-  "author": "keithkeizzah",
+  "author": "jinwiilonginjo",
 "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
