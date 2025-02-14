@@ -157,7 +157,7 @@ keith({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie
 
 `;
 
-    let commandsList = "*𝐀𝐕𝐀𝐈𝐋𝐀𝐁𝐋𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒*\n";
+    let commandsList = "*🄰🅅🄰🄸🄻🄰🄱🄻🄴 🅂🅄🄳🄾🅂*\n";
     const sortedCategories = Object.keys(categorizedCommands).sort();
     let commandIndex = 1;
 
