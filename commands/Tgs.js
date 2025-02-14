@@ -44,7 +44,7 @@ keith({ nomCom: "tgs", categorie: "Mods" }, async (dest, zk, commandeOptions) =>
       type = 'not animated sticker';
     }
 
-    let msg = `*Alpha Md tgsticker*
+    let msg = `*Jinvon Md tgsticker*
 
 *Name:* ${stickers.data.result.name}
 *Type:* ${type}
@@ -65,7 +65,7 @@ Downloading...`;
 
       const sticker = new Sticker(buffer.data, {
         pack: nomAuteurMessage,
-        author: "ALPHA-MD",
+        author: "JINVON-MD",
         type: StickerTypes.FULL,
         categories: ['🤩', '🎉'],
         id: '12345',
