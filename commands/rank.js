@@ -135,7 +135,7 @@ keith( {
     
     
          let msg = `
-┏━━━┛ Alpha Ranking┗━━━┓
+┏━━━┛ Jinvon Ranking┗━━━┓
          
     *Name :* @${auteurMsgRepondu.split("@")[0]}
     
@@ -211,7 +211,7 @@ keith( {
     
     
          let msg = `
-┏━━━┛ Alpha Ranking ┗━━━┓
+┏━━━┛ Jinvon Ranking ┗━━━┓
      
   *Name :* ${nomAuteurMessage}
 
@@ -252,7 +252,7 @@ keith( {
     const {ms , arg, repondre,auteurMessage,nomAuteurMessage, msgRepondu , auteurMsgRepondu , mybotpic} = commandeOptions ;
 
 
-       let msg = `┏━━┛ KEITH-TECH-top-rang ┗━━┓\n\n`
+       let msg = `┏━━┛ JINWIIL-TECH-top-rang ┗━━┓\n\n`
        
       let topRanks = await getBottom10Users() ;
         let mention = [] ;
